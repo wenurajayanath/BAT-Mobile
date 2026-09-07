@@ -57,17 +57,6 @@ body {
   display: block;
 }
 
-.speed-line {
-  position: absolute;
-  width: 50px;
-  height: 3px;
-  background: #e3292f;
-  left: -35px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-
 /* Heading */
 
 .login-container h1 {
@@ -114,7 +103,7 @@ body {
   box-shadow: 0 4px 15px rgba(0, 82, 166, 0.08);
 }
 
-.input-box input {
+/*.input-box input {
   flex: 1;
   height: 100%;
   border: none;
@@ -124,6 +113,17 @@ body {
   font-size: 16px;
   color: #333;
   margin-left: 18px;
+}*/
+.input-box {
+  position: relative;
+  height: 67px;
+  width: 100%;
+  border: 2px solid #e3e6eb;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  margin-bottom: 20px;
 }
 
 .input-box input::placeholder {
@@ -135,12 +135,29 @@ body {
   font-size: 22px;
 }
 
-.eye-btn {
+/*.eye-btn {
   border: none;
   background: transparent;
   color: #68768b;
   font-size: 22px;
   cursor: pointer;
+}*/
+
+.eye-btn {
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border: none;
+  background: transparent;
+  color: #68768b;
+  font-size: 22px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
