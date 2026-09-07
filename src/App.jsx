@@ -35,7 +35,7 @@ function App() {
           <div className="input-box">
             <span className="input-icon">🚌</span>
 
-            <input className="input-boxx" type="text"
+            <input type="text"
               placeholder="Username or Mobile"/>
 
           </div>
@@ -54,7 +54,7 @@ function App() {
               className="eye-btn"
               onClick={() => setShowPassword(!showPassword)}
             >
-              👁️
+              {showPassword ? "👁" :  "⌣"}
             </button>
           </div>
 
