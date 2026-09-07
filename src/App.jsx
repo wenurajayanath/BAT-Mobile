@@ -14,8 +14,9 @@ function App() {
 
           {/* Bus Logo */}
           <div className="bus-logo">
-           {/* <span className="speed-line"></span>*/}
-            <img src="logoBus.jpg" alt="Bus Logo" />
+            <img src={`${import.meta.env.BASE_URL}logoBus.jpg`}alt="Bus Logo"/>
+
+            
 
           </div>
 
