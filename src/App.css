@@ -347,9 +347,9 @@ body {
   position: absolute;
   top: 17%;
   left: 28%;
-  font-size: clamp(60px, 6vw, 60px);
+  font-size: clamp(60px, 6vw, 70px);
   font-weight: 600;
-  font-style: italic;
+  font-style:italic;
   color: #064c9b;
   letter-spacing: -6px;
   z-index: 1000;
