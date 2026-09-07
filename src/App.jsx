@@ -14,7 +14,7 @@ function App() {
 
           {/* Bus Logo */}
           <div className="bus-logo">
-            <span className="speed-line"></span>
+           {/* <span className="speed-line"></span>*/}
             <img src="logoBus.jpg" alt="Bus Logo" />
 
           </div>
