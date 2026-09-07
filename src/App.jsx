@@ -35,14 +35,13 @@ function App() {
           <div className="input-box">
             <span className="input-icon">🚌</span>
 
-            <input
-              type="text"
-              placeholder="Username or Mobile"
-            />
+            <input className="input-boxx" type="text"
+              placeholder="Username or Mobile"/>
+
           </div>
 
           {/* Password */}
-          <div className="input-box">
+          <div className="input-box password-box">
             <span className="input-icon">🔑</span>
 
             <input
@@ -51,10 +50,11 @@ function App() {
             />
 
             <button
+              type="button"
               className="eye-btn"
               onClick={() => setShowPassword(!showPassword)}
             >
-              {showPassword ? "👁" : "⌣"}
+              👁️
             </button>
           </div>
 
